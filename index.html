@@ -1,44 +1,44 @@
-<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Hexo</title><meta name="author" content="John Doe"><meta name="copyright" content="John Doe"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>果酱的博客</title><meta name="author" content="果酱"><meta name="copyright" content="果酱"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="果酱的博客">
 <meta property="og:url" content="http://example.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
-<meta property="article:author" content="John Doe">
+<meta property="og:site_name" content="果酱的博客">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/favicon.jpg">
+<meta property="article:author" content="果酱">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+<meta name="twitter:image" content="http://example.com/img/favicon.jpg"><link rel="shortcut icon" href="/img/favicon.jpg"><link rel="canonical" href="http://example.com/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
   root: '/',
   algolia: undefined,
-  localSearch: undefined,
-  translate: undefined,
-  noticeOutdate: undefined,
-  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简"},
+  noticeOutdate: {"limitDay":365,"position":"top","messagePrev":"这篇文章距离上次更新已有","messageNext":"天, 其内容可能已经过期或变更。"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":230},
   copy: {
-    success: 'Copy Successful',
-    error: 'Copy Error',
-    noSupport: 'Browser Not Supported'
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
   },
   relativeDate: {
-    homepage: false,
-    post: false
+    homepage: true,
+    post: true
   },
   runtime: '',
   dateSuffix: {
-    just: 'Just now',
-    min: 'minutes ago',
-    hour: 'hours ago',
-    day: 'days ago',
-    month: 'months ago'
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
   },
   copyright: undefined,
   lightbox: 'fancybox',
-  Snackbar: undefined,
+  Snackbar: {"chs_to_cht":"你已切换为繁体中文","cht_to_chs":"你已切换为简体中文","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"top-right"},
   infinitegrid: {
     js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
-    buttonText: 'Load More'
+    buttonText: '加载更多'
   },
   isPhotoFigcaption: false,
-  islazyload: false,
+  islazyload: true,
   isAnchor: false,
   percent: {
     toc: true,
@@ -46,12 +46,12 @@
   },
   autoDarkmode: false
 }</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
-  title: 'Hexo',
+  title: '果酱的博客',
   isPost: false,
   isHome: true,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2024-04-19 07:59:24'
+  postUpdate: '2024-04-19 13:23:43'
 }</script><script>(win=>{
       win.saveToLocal = {
         set: (key, value, ttl) => {
@@ -125,14 +125,18 @@
       win.activateLightMode = () => {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
         }
       }
       const t = saveToLocal.get('theme')
     
-        if (t === 'dark') activateDarkMode()
-        else if (t === 'light') activateLightMode()
-      
+          const now = new Date()
+          const hour = now.getHours()
+          const isNight = hour <= 6 || hour >= 18
+          if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
       const asideStatus = saveToLocal.get('aside-status')
       if (asideStatus !== undefined) {
         if (asideStatus === 'hide') {
@@ -148,13 +152,32 @@
         }
       }
       detectApple()
-    })(window)</script><meta name="generator" content="Hexo 7.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">3</div></a></div><hr class="custom-hr"/></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="Hexo"><span class="site-name">Hexo</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Hexo</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/04/13/%E8%AE%A9%E5%AE%B6%E5%BA%AD%E5%AE%BD%E5%B8%A6%E7%94%A8%E4%B8%8A80%E6%88%96443%E7%AB%AF%E5%8F%A3/" title="让家庭宽带用上80或443端口">让家庭宽带用上80或443端口</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-04-13T00:00:00.000Z" title="Created 2024-04-13 00:00:00">2024-04-13</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/operation/">operation</a></span></div><div class="content">前言考虑到家庭宽带都是封禁443端口的，作为博客没有443端口就不能被搜索引擎索引，为此本人在网上高强度冲浪找到了一种办法，成功使本博客用上了443端口。今天的主角——cloudflare
+    })(window)</script><link rel="stylesheet" href="/css/avatar.css?1"><link rel="stylesheet" href="/css/custom.css?1"><link rel="stylesheet" href="/css/universe.css"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-double-row-display@1.00/cardlistpost.min.css"/>
+<style>#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags:before {content:"\A";
+  white-space: pre;}#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags > .article-meta__separator{display:none}</style>
+<link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-categories-card@1.0.0/lib/categorybar.css"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload="this.media='screen'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.2.0"></head><body><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><div class="loading-img"></div><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+
+if (false) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/favicon.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 列表</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/img/background.png')"><nav id="nav"><span id="blog-info"><a href="/" title="果酱的博客"><span class="site-name">果酱的博客</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 列表</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">果酱的博客</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/Asukaaa648" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:qingming648@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a><a class="social-icon" href="https://space.bilibili.com/356845560" target="_blank" title="Bilibili"><i class="fab fa-bilibili" style="color: #059dcf;"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/04/13/%E8%AE%A9%E5%AE%B6%E5%BA%AD%E5%AE%BD%E5%B8%A6%E7%94%A8%E4%B8%8A80%E6%88%96443%E7%AB%AF%E5%8F%A3/" title="让家庭宽带用上80或443端口">让家庭宽带用上80或443端口</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-04-13T00:00:00.000Z" title="发表于 2024-04-13 00:00:00">2024-04-13</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-04-19T06:01:07.347Z" title="更新于 2024-04-19 06:01:07">2024-04-19</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/operation/">operation</a></span></div><div class="content">前言考虑到家庭宽带都是封禁443端口的，作为博客没有443端口就不能被搜索引擎索引，为此本人在网上高强度冲浪找到了一种办法，成功使本博客用上了443端口。今天的主角——cloudflare
 接入cloudflareCloudFlare for SaaS 官方免费CNAME接入&#x2F;自定义节点（CF自选IP）教程 – 萌精灵 (moeelf.com)
 注：现版本的cloudflare无需绑卡也能使用自定义主机名。
 配置origin rules
 选择新建规则，字段选择url完整，开头为，然后填入你自己SAAS接入的域名。下方目标端口就是你需要把非443端口重写到443上的目标端口，提交后就可以了。
 
-</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/04/05/%E9%A5%A5%E8%8D%92%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%BC%80%E6%9C%8D%E6%8C%87%E5%8D%97%E5%8F%8A%E5%85%A8%E7%BD%91%E6%9C%80%E5%85%A8%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/" title="饥荒服务器开服指南及全网最全踩坑记录">饥荒服务器开服指南及全网最全踩坑记录</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-04-05T00:00:00.000Z" title="Created 2024-04-05 00:00:00">2024-04-05</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/operation/">operation</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/operation/soft-hard-ware/">soft-hard-ware</a></span></div><div class="content">写在之前网上确实有很多饥荒服务器的搭建教程，之所以会写这篇文章是因为网上很多教程都有瑕疵，按照知乎上的来最后会出现这样那样的问题，所以才会写这一篇博客，按照这篇博客来百分百成功，希望能帮到大家。
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/04/05/%E9%A5%A5%E8%8D%92%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%BC%80%E6%9C%8D%E6%8C%87%E5%8D%97%E5%8F%8A%E5%85%A8%E7%BD%91%E6%9C%80%E5%85%A8%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/" title="饥荒服务器开服指南及全网最全踩坑记录">饥荒服务器开服指南及全网最全踩坑记录</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-04-05T00:00:00.000Z" title="发表于 2024-04-05 00:00:00">2024-04-05</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-04-19T06:01:07.317Z" title="更新于 2024-04-19 06:01:07">2024-04-19</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/operation/">operation</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/operation/soft-hard-ware/">soft-hard-ware</a></span></div><div class="content">写在之前网上确实有很多饥荒服务器的搭建教程，之所以会写这篇文章是因为网上很多教程都有瑕疵，按照知乎上的来最后会出现这样那样的问题，所以才会写这一篇博客，按照这篇博客来百分百成功，希望能帮到大家。
 服务器选择可以选择云服务器：阿里云、腾讯云等，推荐配置2核2G（1-2个mod），安装CentOS7.9 64位。正好最近两家服务器都在做活动，2核2G 99一年，可以4-6人流畅运行。如果多mod的话要4G内存。购买服务器网上一搜一大堆。
 如果你自己有服务器或者nas并且有公网就可以省去这笔费用，使用docker安装steamcmd。
 安装专用服务器本篇博客以CentOS7.9为例进行搭建。
@@ -166,7 +189,7 @@
 如果是Ubuntu或者debian就是apt update
 安装依赖项1yum -y install glibc.i686 libstdc++.i686 screen libcurl.i686
 
-创建steam用户12useradd st ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/02/09/bettermc%E6%B8%B8%E7%8E%A9%E6%8C%87%E5%8D%97/" title="BETTER MC游玩指南">BETTER MC游玩指南</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-02-09T00:00:00.000Z" title="Created 2024-02-09 00:00:00">2024-02-09</time></span></div><div class="content">Windows端1.下载PCL2启动器PCL 正式版下载丨龙腾猫跃丨爱发电 (afdian.net)
+创建steam用户12useradd st ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/02/09/bettermc%E6%B8%B8%E7%8E%A9%E6%8C%87%E5%8D%97/" title="BETTER MC游玩指南">BETTER MC游玩指南</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-02-09T00:00:00.000Z" title="发表于 2024-02-09 00:00:00">2024-02-09</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-04-19T06:01:07.310Z" title="更新于 2024-04-19 06:01:07">2024-04-19</time></span></div><div class="content">Windows端1.下载PCL2启动器PCL 正式版下载丨龙腾猫跃丨爱发电 (afdian.net)
 2.安装整合包下载后打开将_Better MC [FABRIC] 1.20.1 v24.zip_（见文末）拖入启动器，自动安装。如果半天没有速度的话说明需要科学上网，自行解决。
 之后选择启动游戏，PCL2会自动安装Java，等待启动完毕即可游玩。
 MAC端1.安装JAVA17（JRE）JAVA17下载地址
@@ -177,7 +200,7 @@ MAC端1.安装JAVA17（JRE）JAVA17下载地址
 可以自定义皮肤和动作
 点击此处下载或在文末处网盘下载安装方法
 
-将下好的_infusion_table-1.2.0-1.20-fabric.jar_和 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/08/16/%E8%87%AA%E5%BB%BAemby%E5%BD%B1%E9%9F%B3%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/" title="自建EMBY影音服务器使用指南">自建EMBY影音服务器使用指南</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-08-16T00:00:00.000Z" title="Created 2023-08-16 00:00:00">2023-08-16</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/operation/">operation</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/operation/soft-hard-ware/">soft-hard-ware</a></span></div><div class="content">简单的展示
+将下好的_infusion_table-1.2.0-1.20-fabric.jar_和 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/08/16/%E8%87%AA%E5%BB%BAemby%E5%BD%B1%E9%9F%B3%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/" title="自建EMBY影音服务器使用指南">自建EMBY影音服务器使用指南</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-08-16T00:00:00.000Z" title="发表于 2023-08-16 00:00:00">2023-08-16</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-04-19T06:01:07.272Z" title="更新于 2024-04-19 06:01:07">2024-04-19</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/operation/">operation</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/operation/soft-hard-ware/">soft-hard-ware</a></span></div><div class="content">简单的展示
 
 
 
@@ -190,15 +213,144 @@ MAC端1.安装JAVA17（JRE）JAVA17下载地址
 如果家里开了ipv6建议使用这个网址来访问。这个网址是点对点直连的没有经过流量转发，速度快
 如果家里没开ipv6那就使用这个网址来访问。这个网址流量情况是：我的服务器 -&gt;（zerotier内网ipv6直连）-&gt;有ipv4公网的服务器-&gt;你的设备。该线路已经进行了优化，速度媲美ipv6。
 网页浏览（仅电脑端推荐）选择合适的网址后会有“EMBY”四字，稍安勿躁……
-默 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/05/14/C++%E6%AF%94%E8%B5%9B%E6%89%93%E5%88%86%E6%B5%81%E7%A8%8B%E7%B3%BB%E7%BB%9F/" title="C++比赛打分流程系统">C++比赛打分流程系统</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-05-14T00:00:00.000Z" title="Created 2023-05-14 00:00:00">2023-05-14</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/c-plus-plus/">c-plus-plus</a></span></div><div class="content">本程序通过C++实现成员创建和导入，流程管理，分数自动计算（并行），排名分数导出等功能。
+默 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/05/14/C++%E6%AF%94%E8%B5%9B%E6%89%93%E5%88%86%E6%B5%81%E7%A8%8B%E7%B3%BB%E7%BB%9F/" title="C++比赛打分流程系统">C++比赛打分流程系统</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-05-14T00:00:00.000Z" title="发表于 2023-05-14 00:00:00">2023-05-14</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-04-19T10:52:32.798Z" title="更新于 2024-04-19 10:52:32">2024-04-19</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/c-plus-plus/">c-plus-plus</a></span></div><div class="content">本程序通过C++实现成员创建和导入，流程管理，分数自动计算（并行），排名分数导出等功能。
 通过定义类compareManager类实现以上功能。
 下载源代码在文章末尾。
 compareManager.hcompareManager类的声明在compareManager.h中：
-12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364#pragma once#include #include &quot;competitor.h&quot;#include #include #include #include #include #include #include using namespace std;//设计流程管理类class compareManager&#123;public:	compareManager();	~compareManager();	void Show_Menu();	void De ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">John Doe</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/04/13/%E8%AE%A9%E5%AE%B6%E5%BA%AD%E5%AE%BD%E5%B8%A6%E7%94%A8%E4%B8%8A80%E6%88%96443%E7%AB%AF%E5%8F%A3/" title="让家庭宽带用上80或443端口">让家庭宽带用上80或443端口</a><time datetime="2024-04-13T00:00:00.000Z" title="Created 2024-04-13 00:00:00">2024-04-13</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/04/05/%E9%A5%A5%E8%8D%92%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%BC%80%E6%9C%8D%E6%8C%87%E5%8D%97%E5%8F%8A%E5%85%A8%E7%BD%91%E6%9C%80%E5%85%A8%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/" title="饥荒服务器开服指南及全网最全踩坑记录">饥荒服务器开服指南及全网最全踩坑记录</a><time datetime="2024-04-05T00:00:00.000Z" title="Created 2024-04-05 00:00:00">2024-04-05</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/02/09/bettermc%E6%B8%B8%E7%8E%A9%E6%8C%87%E5%8D%97/" title="BETTER MC游玩指南">BETTER MC游玩指南</a><time datetime="2024-02-09T00:00:00.000Z" title="Created 2024-02-09 00:00:00">2024-02-09</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/08/16/%E8%87%AA%E5%BB%BAemby%E5%BD%B1%E9%9F%B3%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/" title="自建EMBY影音服务器使用指南">自建EMBY影音服务器使用指南</a><time datetime="2023-08-16T00:00:00.000Z" title="Created 2023-08-16 00:00:00">2023-08-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/05/14/C++%E6%AF%94%E8%B5%9B%E6%89%93%E5%88%86%E6%B5%81%E7%A8%8B%E7%B3%BB%E7%BB%9F/" title="C++比赛打分流程系统">C++比赛打分流程系统</a><time datetime="2023-05-14T00:00:00.000Z" title="Created 2023-05-14 00:00:00">2023-05-14</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263#pragma once#include &lt;iostream&gt;#include &quot;competitor.h&quot;#include &lt;vector&gt;#include &lt;map&gt;#include &lt;fstream&gt;#include &lt;algorithm&gt;#include &lt;functional&gt;#include &lt;numeric&gt;#include &lt;sstream&gt;using  ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/favicon.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">果酱</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/Asukaaa648"><i class="fab fa-github"></i><span>前往Github</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/Asukaaa648" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:qingming648@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a><a class="social-icon" href="https://space.bilibili.com/356845560" target="_blank" title="Bilibili"><i class="fab fa-bilibili" style="color: #059dcf;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到我的博客!</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/04/13/%E8%AE%A9%E5%AE%B6%E5%BA%AD%E5%AE%BD%E5%B8%A6%E7%94%A8%E4%B8%8A80%E6%88%96443%E7%AB%AF%E5%8F%A3/" title="让家庭宽带用上80或443端口">让家庭宽带用上80或443端口</a><time datetime="2024-04-13T00:00:00.000Z" title="发表于 2024-04-13 00:00:00">2024-04-13</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/04/05/%E9%A5%A5%E8%8D%92%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%BC%80%E6%9C%8D%E6%8C%87%E5%8D%97%E5%8F%8A%E5%85%A8%E7%BD%91%E6%9C%80%E5%85%A8%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/" title="饥荒服务器开服指南及全网最全踩坑记录">饥荒服务器开服指南及全网最全踩坑记录</a><time datetime="2024-04-05T00:00:00.000Z" title="发表于 2024-04-05 00:00:00">2024-04-05</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/02/09/bettermc%E6%B8%B8%E7%8E%A9%E6%8C%87%E5%8D%97/" title="BETTER MC游玩指南">BETTER MC游玩指南</a><time datetime="2024-02-09T00:00:00.000Z" title="发表于 2024-02-09 00:00:00">2024-02-09</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/08/16/%E8%87%AA%E5%BB%BAemby%E5%BD%B1%E9%9F%B3%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/" title="自建EMBY影音服务器使用指南">自建EMBY影音服务器使用指南</a><time datetime="2023-08-16T00:00:00.000Z" title="发表于 2023-08-16 00:00:00">2023-08-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/05/14/C++%E6%AF%94%E8%B5%9B%E6%89%93%E5%88%86%E6%B5%81%E7%A8%8B%E7%B3%BB%E7%BB%9F/" title="C++比赛打分流程系统">C++比赛打分流程系统</a><time datetime="2023-05-14T00:00:00.000Z" title="发表于 2023-05-14 00:00:00">2023-05-14</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
             <i class="fas fa-folder-open"></i>
-            <span>Categories</span>
+            <span>分类</span>
             
             </div>
             <ul class="card-category-list" id="aside-cat-list">
             <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/c-plus-plus/"><span class="card-category-list-name">c-plus-plus</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/operation/"><span class="card-category-list-name">operation</span><span class="card-category-list-count">3</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/operation/soft-hard-ware/"><span class="card-category-list-name">soft-hard-ware</span><span class="card-category-list-count">2</span></a></li></ul></li>
-            </ul></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/04/"><span class="card-archive-list-date">April 2024</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/02/"><span class="card-archive-list-date">February 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/08/"><span class="card-archive-list-date">August 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/05/"><span class="card-archive-list-date">May 2023</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">5</div></div><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Last Update :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-04-19T07:59:23.943Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By John Doe</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
+            </ul></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/04/"><span class="card-archive-list-date">四月 2024</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/02/"><span class="card-archive-list-date">二月 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/08/"><span class="card-archive-list-date">八月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/05/"><span class="card-archive-list-date">五月 2023</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">5</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-04-19T13:23:43.256Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2023 - 2024 By 果酱</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="/js/tw_cn.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@5.2.0/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.8/dist/lazyload.iife.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar@0.1.16/dist/snackbar.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><div class="js-pjax"><script>window.typedJSFn = {
+  init: (str) => {
+    window.typed = new Typed('#subtitle', Object.assign({
+      strings: str,
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50,
+    }, null))
+  },
+  run: (subtitleType) => {
+    if (true) {
+      if (typeof Typed === 'function') {
+        subtitleType()
+      } else {
+        getScript('https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.min.js').then(subtitleType)
+      }
+    } else {
+      subtitleType()
+    }
+  }
+}
+</script><script>function subtitleType () {
+  fetch('https://v1.hitokoto.cn')
+    .then(response => response.json())
+    .then(data => {
+      if (true) {
+        const from = '出自 ' + data.from
+        const sub = ["Life is coding, I'll debug it."]
+        sub.unshift(data.hitokoto, from)
+        typedJSFn.init(sub)
+      } else {
+        document.getElementById('subtitle').textContent = data.hitokoto
+      }
+    })
+}
+typedJSFn.run(subtitleType)
+</script></div><canvas id="universe"></canvas><script defer src="/js/universe.js"></script><script defer src="/js/cursor.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/metingjs/dist/Meting.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=4.13.0"></script></div></div><!-- hexo injector body_end start --><script data-pjax>
+    function butterfly_categories_card_injector_config(){
+      var parent_div_git = document.getElementById('recent-posts');
+      var item_html = '<style>li.categoryBar-list-item{width:32.3%;}.categoryBar-list{max-height: 190px;overflow:auto;}.categoryBar-list::-webkit-scrollbar{width:0!important}@media screen and (max-width: 650px){.categoryBar-list{max-height: 160px;}}</style><div class="recent-post-item" style="height:auto;width:100%;padding:0px;"><div id="categoryBar"><ul class="categoryBar-list"><li class="categoryBar-list-item" style="background:url(https://assets.akilar.top/image/cover3.webp);"> <a class="categoryBar-list-link" href="categories/c-plus-plus/">c-plus-plus</a><span class="categoryBar-list-count">1</span><span class="categoryBar-list-descr">长篇小说连载</span></li><li class="categoryBar-list-item" style="background:url(https://assets.akilar.top/image/cover5.webp);"> <a class="categoryBar-list-link" href="categories/operation/">operation</a><span class="categoryBar-list-count">3</span><span class="categoryBar-list-descr">诗词歌赋</span></li><li class="categoryBar-list-item" style="background:url(https://assets.akilar.top/image/cover6.webp);"> <a class="categoryBar-list-link" href="categories/operation/soft-hard-ware/">soft-hard-ware</a><span class="categoryBar-list-count">2</span><span class="categoryBar-list-descr">杂谈教程</span></li></ul></div></div>';
+      console.log('已挂载butterfly_categories_card')
+      parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+      }
+    if( document.getElementById('recent-posts') && (location.pathname ==='/'|| '/' ==='all')){
+    butterfly_categories_card_injector_config()
+    }
+  </script><script data-pjax>
+  function butterfly_footer_beautify_injector_config(){
+    var parent_div_git = document.getElementById('footer-wrap');
+    var item_html = '<div id="workboard"></div><p id="ghbdages"><a class="github-badge" target="_blank" href="https://hexo.io/" style="margin-inline:5px" data-title="博客框架为Hexo_v6.2.0" title=""><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&amp;logo=hexo" alt=""/></a><a class="github-badge" target="_blank" href="https://butterfly.js.org/" style="margin-inline:5px" data-title="主题版本Butterfly_v4.3.1" title=""><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&amp;logo=bitdefender" alt=""/></a><a class="github-badge" target="_blank" href="https://github.com/" style="margin-inline:5px" data-title="本站项目由Github托管" title=""><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&amp;logo=GitHub" alt=""/></a><a class="github-badge" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="margin-inline:5px" data-title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可" title=""><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&amp;logo=Claris" alt=""/></a></p>';
+    console.log('已挂载butterfly_footer_beautify')
+    parent_div_git.insertAdjacentHTML("beforeend",item_html)
+    }
+  var elist = 'null'.split(',');
+  var cpage = location.pathname;
+  var epage = 'all';
+  var flag = 0;
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_footer_beautify_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_footer_beautify_injector_config();
+  }
+  </script><script async src="/js/time.js"></script><script data-pjax>
+  function butterfly_swiper_injector_config(){
+    var parent_div_git = document.getElementById('recent-posts');
+    var item_html = '<div class="recent-post-item" style="height: auto;width: 100%"><div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container"><div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms;"></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div></div>';
+    console.log('已挂载butterfly_swiper')
+    parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+    }
+  var elist = 'undefined'.split(',');
+  var cpage = location.pathname;
+  var epage = 'all';
+  var flag = 0;
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_swiper_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_swiper_injector_config();
+  }
+  </script><script defer src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js"></script><script defer data-pjax src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js"></script><div class="js-pjax"><script async="async">var arr = document.getElementsByClassName('recent-post-item');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__zoomIn');
+    arr[i].setAttribute('data-wow-duration', '1200ms');
+    arr[i].setAttribute('data-wow-delay', '500ms');
+    arr[i].setAttribute('data-wow-offset', '100');
+    arr[i].setAttribute('data-wow-iteration', '2');
+  }</script><script async="async">var arr = document.getElementsByClassName('card-widget');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__backInRight');
+    arr[i].setAttribute('data-wow-duration', '');
+    arr[i].setAttribute('data-wow-delay', '');
+    arr[i].setAttribute('data-wow-offset', '');
+    arr[i].setAttribute('data-wow-iteration', '');
+  }</script></div><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js"></script><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js"></script><!-- hexo injector body_end end --><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"left","width":150,"height":300},"mobile":{"show":false},"log":false});</script></body></html>
