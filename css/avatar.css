@@ -1,4 +1,4 @@
 .loading-img {
-    background: url(http://192.168.1.169:4000/img/favicon.jpg) no-repeat center center;
+    background: url(/img/favicon.jpg) no-repeat center center;
     background-size: cover;
   }
