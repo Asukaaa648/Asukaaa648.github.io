@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>QQEMBY机器人使用指南</title>
+      <link href="/posts/e20eb0f9.html"/>
+      <url>/posts/e20eb0f9.html</url>
+      
+        <content type="html"><![CDATA[<p>之前EMBY是通过网页注册的，这次把它和QQ机器人结合起来（shittycode警告），一个机器人实现入库通知，自助注册，内容检索等功能。</p><p>尝试了很多架构，最后是用了<a href="https://qmsg.zendee.cn/">qmsg</a>的架构，最近5.14也是刚更新了Linux版本的NT，相当于在官方的程序下植入了插件，比cqhttp稳定得多（虽然功能没有cqhttp全，但是发个图文还是够的）</p><p><img src="https://pic.my-nas8.top/imgs/posts/202405181639428.png" alt="image-20240518163915358"></p><h1 id="功能一：入库通知"><a href="#功能一：入库通知" class="headerlink" title="功能一：入库通知"></a>功能一：入库通知</h1><p>本来nastool可以调用电报机器人还带图片，介于很多人上不了电报，只好退而求其次。</p><p><img src="https://pic.my-nas8.top/imgs/posts/202405181640474.png" alt="image-20240518164034452"></p><h1 id="功能二：自助创建用户"><a href="#功能二：自助创建用户" class="headerlink" title="功能二：自助创建用户"></a>功能二：自助创建用户</h1><p><img src="https://pic.my-nas8.top/imgs/posts/202405181641391.png" alt="image-20240518164121371"></p><h1 id="功能三：在EMBY库中搜索影片"><a href="#功能三：在EMBY库中搜索影片" class="headerlink" title="功能三：在EMBY库中搜索影片"></a>功能三：在EMBY库中搜索影片</h1><p><img src="https://pic.my-nas8.top/imgs/posts/202405181642882.png" alt="image-20240518164224859"></p><h1 id="后续还会更新更多功能"><a href="#后续还会更新更多功能" class="headerlink" title="后续还会更新更多功能"></a>后续还会更新更多功能</h1><p>如果有想要教程和源码的可以评论。扫码或点击<a href="https://qm.qq.com/q/J1F04yGRMY">此处</a>加群。</p><p><img src="https://pic.my-nas8.top/imgs/posts/202405181644035.jpg" alt="qrcode_1716021845231"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 自建项目 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 自助注册 </tag>
+            
+            <tag> EMBY </tag>
+            
+            <tag> QQ机器人 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>双层住房组网方案</title>
       <link href="/posts/22cc2517.html"/>
       <url>/posts/22cc2517.html</url>
