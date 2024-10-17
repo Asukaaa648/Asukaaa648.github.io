@@ -199,11 +199,11 @@
   </entry>
   
   <entry>
-    <title>自建EMBY影音服务器使用指南</title>
+    <title>自建jellyfin影音服务器使用指南</title>
     <link href="https://blog.my-nas8.top:4443/posts/f0baf2f9.html"/>
     <id>https://blog.my-nas8.top:4443/posts/f0baf2f9.html</id>
     <published>2023-08-16T00:00:00.000Z</published>
-    <updated>2024-06-15T13:49:37.070Z</updated>
+    <updated>2024-10-17T04:21:01.820Z</updated>
     
     
       
@@ -221,7 +221,7 @@
     
     <category term="nas" scheme="https://blog.my-nas8.top:4443/tags/nas/"/>
     
-    <category term="emby" scheme="https://blog.my-nas8.top:4443/tags/emby/"/>
+    <category term="Jellyfin" scheme="https://blog.my-nas8.top:4443/tags/Jellyfin/"/>
     
     <category term="影音服务器" scheme="https://blog.my-nas8.top:4443/tags/%E5%BD%B1%E9%9F%B3%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
